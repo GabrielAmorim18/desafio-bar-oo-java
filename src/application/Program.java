@@ -39,5 +39,7 @@ public class Program {
         System.out.printf("Ingresso = R$ %.2f%n", bill.ticket());
         System.out.println();
         System.out.printf("Valor a pagar = R$ %.2f", bill.total());
+
+        sc.close();
     }
 }
